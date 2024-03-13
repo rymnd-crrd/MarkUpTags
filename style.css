@@ -1,7 +1,7 @@
 body {
     background-image: url('background.jpg');
     font-family: Arial, sans-serif;
-    margin: 15px;
+    margin: auto;
     padding: 10px;
     box-sizing: border-box;
 }
