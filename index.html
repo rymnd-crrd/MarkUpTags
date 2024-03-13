@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Markup Tags in Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Markup Tags Table</h1>
+
+<table>
+  <tr>
+    <th>Markup Tag</th>
+    <th>Description</th>
+    <th>Possible Attributes</th>
+    <th>Description of Attributes</th>
+  </tr>
+
+  <tr>
+    <td>&lt;abbr&gt;</td>
+    <td>Defines an abbreviation or an acronym</td>
+    <td>dfn, title</td>
+    <td>dfn: tag stands for the "definition element", and it specifies a term that is going to be defined within the content.<br>
+        title: it must contain a full human-readable description or expansion of the abbreviation.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;b&gt;</td>
+    <td>Defines bold text</td>
+    <td>sub, sup</td>
+    <td>sub: tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font.<br>
+        sup: Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;body&gt;</td>
+    <td>Defines the document's body</td>
+    <td>background, text, link</td>
+    <td>background: This attribute sets the background color or image of the web page.<br>
+        text: This attribute sets the default text color for the web page.<br>
+        link: This attribute sets the default color of hyperlinks that have not been visited.</td>
+  </tr>
+  <tr>
+    <td>&lt;br&gt;</td>
+    <td>Defines a single line break</td>
+    <td>global and event attributes</td>
+    <td>global: can applied to nearly all HTML elements.<br>
+        event: does not have specific event attributes, you can use global event attributes on it.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;div&gt;</td>
+    <td>Defines a section in a document</td>
+    <td>id, class, style</td>
+    <td>id: attribute is used to point to a specific style declaration in a style sheet.<br>
+        class: specifies one or more classnames for an element.<br>
+        style: attribute specifies an inline style for an element. The style attribute will override any style set globally, e.g. styles specified in the style tag or in an external sheet.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;footer&gt;</td>
+    <td>Defines a footer for a document or section</td>
+    <td>don't have any special kind of attributes list, but it supports all global attributes like accesskey, data, class, contenteditable, dir, draggable, hidden, id, lang, dropzone, spellcheck, style, title, translate, etc.</td>
+    <td>represents a footer for its nearest ancestor sectioning content or sectioning root element.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;h1&gt; to <br> &lt;h6&gt;</td>
+    <td>Defines HTML headings</td>
+    <td>th, td</td>
+    <td>th: is used for table header cells.<br>
+        td: is used for table data cells.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;img&gt;</td>
+    <td>Defines an image</td>
+    <td>src, alt</td>
+    <td>src: The source location (URL) of the image file.
+        This works the same way as the href attribute on links.<br>
+        alt: The alternate text.
+        This is used to describe the image for someone who cannot see it because they are either using a screen reader or the image src is missing. This text will only show if the image does not.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;li&gt;</td>
+    <td>Defines a list item</td>
+    <td>ol, dl</td>
+    <td>ol: Defines an ordered list.<br>
+        dl: Defines a description list.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;table&gt;</td>
+    <td>Defines a table</td>
+    <td>tr, td</td>
+    <td>tr: element defines a table row.<br>
+        td: element defines a table cell</td>
+  </tr>
+
+  <tr>
+    <td>&lt;tbody&gt;</td>
+    <td>Groups the body content in a table</td>
+    <td>align, valign</td>
+    <td>align: Set the alignment of the content.<br>
+        valign: Set the vertical alignment of the content.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;template&gt;</td>
+    <td>Defines a container for content that should be hidden when the page loads</td>
+    <td>template</td>
+    <td>template: is used to store the HTML code fragments, which can be cloned and inserted in an HTML document.</td>
+  </tr>
+
+  <tr>
+    <td>&lt;kdb&gt;</td>
+    <td>Represents user input in a keyboard input or text entry field. </td>
+    <td>style</td>
+    <td> Allows inline styling to be applied directly to the element.  </td>
+  </tr>
+
+  <tr>
+    <td>&lt;var&gt;</td>
+    <td>Used to represent the name of a variable in a mathematical expression or programming context.</td>
+    <td>n/a</td>
+    <td> Represents only the name of a variable.  </td>
+
+    <tr>
+        <td>&lt;ul&gt;</td>
+        <td> Used to create an unordered list. </td>
+        <td>style</td>
+        <td> Specifies inline CSS styles for the element.  </td>
+    </tr>
+
+    <tr>
+        <td>&lt;code&gt;</td>
+        <td>Used to define a piece of computer code. It is typically used to display code snippets within the text content of a document.   </td>
+        <td>n/a</td>
+        <td> The 'code' element doesn't have specific attributes of its own. However, it can be combined with other elements or attributes for additional context or styling. </td>
+
+        <tr>
+            <td>&lt;ins&gt;</td>
+            <td>Used to represent text that has been inserted into the document.</td>
+            <td>datetime</td>
+            <td> Provides a machine-readable date and time indicating when the text was inserted.  </td>
+        </tr>
+
+        <tr>
+            <td>&lt;bdo&gt;</td>
+            <td>Used to override the Unicode bidirectional algorithm for the content within it.  </td>
+            <td>dir</td>
+            <td> Specifies the base direction of text. </td>
+        </tr>
+
+        <tr>
+            <td>&lt;strong&gt;</td>
+            <td>Used to indicate strong importance or emphasis. </td>
+            <td>n/a</td>
+            <td>The 'strong' element does not have any specific attributes of its own. It primarily focuses on the content it wraps.</td>
+        </tr>
+
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>A block-level element that represents a paragraph of text.</td>
+            <td>class, id</td>
+            <td>The class attribute is used to associate an element with a particular class defined in the CSS. The id attribute provides a unique identifier for the element on the page. It is often used for more specific styling or for JavaScript to target a particular element.</td>
+        </tr>
+
+
+</table>
+
+    <h3>References</h3>
+    <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+    
+</body>
+</html>
